@@ -1,0 +1,17 @@
+/*
+ Theme Name:   Specia Standard Child
+ Theme URI:    http://orangecountypipingmasters.com/wp-content/themes/specia-standard-child/
+ Description:  Specia Standard Child Theme
+ Author:       kenput3r
+ Author URI:   https://www.suavecito.com/
+ Template:     specia-standard
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  specia-standard-child
+*/
+
+html {
+    font-size: 11px;
+}
