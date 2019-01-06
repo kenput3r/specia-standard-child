@@ -5,7 +5,7 @@ function child_theme_enqueue_styles() {
     $child_style = 'specia-standard-child';
     wp_enqueue_style($parent_style, get_template_directory_uri() . '/style.css');
     wp_enqueue_style($child_style, get_stylesheet_directory_uri() . '/style.css', array($parent_style), wp_get_theme()->get('Version'));
-    wp_enqueue_style('new-font-awesome', 'https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+    wp_enqueue_style('new-font-awesome', 'https://use.fontawesome.com/releases/v5.6.3/css/all.css', array(), $ver=false);
 }
 add_action('wp_enqueue_scripts', 'child_theme_enqueue_scripts');
 function child_theme_enqueue_scripts() {
