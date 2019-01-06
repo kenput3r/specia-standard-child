@@ -46,3 +46,7 @@ html {
     -webkit-font-smoothing: antialiased;
     padding: 5px;
 }
+
+.footer-section #galery-1 figcaption {
+    display: none;
+}
