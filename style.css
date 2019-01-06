@@ -50,3 +50,11 @@ html {
 .footer-sidebar #gallery-1 figcaption {
     display: none;
 }
+
+.footer-contact {
+    font-size: 1.2em;
+}
+
+.footer-contact a {
+    color: #fff;
+}
