@@ -47,7 +47,7 @@ html {
     padding: 5px;
 }
 
-.footer-sidebar #gallery-1 figcaption {
+.footer-sidebar .gallery figcaption {
     display: none;
 }
 
