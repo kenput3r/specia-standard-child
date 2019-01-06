@@ -6,7 +6,7 @@ function child_theme_enqueue_styles() {
     $specia_font_awesome = 'specia-font-awesome-css';
     wp_enqueue_style($parent_style, get_template_directory_uri() . '/style.css');
     wp_enqueue_style($child_style, get_stylesheet_directory_uri() . '/style.css', array($parent_style), wp_get_theme()->get('Version'));
-    wp_enqueue_style('new-font-awesome', 'https://use.fontawesome.com/releases/v5.6.3/css/all.css', array($specia_font_awesome), false);
+    wp_enqueue_style('new-font-awesome', 'https://use.fontawesome.com/releases/v5.6.3/css/all.css', array($specia_font_awesome));
 }
 add_action('wp_enqueue_scripts', 'child_theme_enqueue_scripts');
 function child_theme_enqueue_scripts() {
